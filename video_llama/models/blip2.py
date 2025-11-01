@@ -72,9 +72,14 @@ class Blip2Base(BaseModel):
 
     def load_from_pretrained(self, url_or_filename):
         if is_url(url_or_filename):
+            '''
             cached_file = download_cached_file(
                 url_or_filename, check_hash=False, progress=True
             )
+            '''
+            cached_file = "video_llama/models/blip2_pretrained_flant5xxl.pth"
+            print(f"Loading VIT weights from: {cached_file}")
+
             checkpoint = torch.load(cached_file, map_location="cpu")
         elif os.path.isfile(url_or_filename):
             checkpoint = torch.load(url_or_filename, map_location="cpu")

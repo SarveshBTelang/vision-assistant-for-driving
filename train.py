@@ -15,6 +15,10 @@ import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
 
+import torchvision.transforms.functional as F
+import sys
+sys.modules['torchvision.transforms.functional_tensor'] = F
+
 import video_llama.tasks as tasks
 from video_llama.common.config import Config
 from video_llama.common.dist_utils import get_rank, init_distributed_mode

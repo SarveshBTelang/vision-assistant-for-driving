@@ -1,100 +1,30 @@
 [
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "What can be inferred about the traffic situation and movements of our car and the vehicle in front?",
-            "a": "From the observed situation, it appears our car initially slowed to a stop due to a red light. This red light also caused a halt to the vehicle in front of us. Although there was a brief moment when our vehicle moved forward, this was in response to the car in front slightly moving forward as well. However, the light remained red, which means we returned to a complete stop."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "If the traffic light had turned green after our car inched forward, what might our car have done?",
-            "a": "Only assuming from the given situations, if the traffic light had turned green after we inched forward, our car would have most likely proceeded forward along the road, following the vehicle in front."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "What happens if the car in front suddenly turns right at the red light?",
-            "a": "If the car in front of us decided to make a sudden right turn at the red light, it would clear the lane in front of us. However, without a green light signal, we would still have to remain stationary until the traffic light changes. "
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "Why did our car inch forward when the car in front did the same, even though the light was still red?",
-            "a": "It's common in traffic that vehicles inch forward despite the red light, usually to prepare for when the light changes to green. Our car might have moved slightly forward to maintain an appropriate distance with the vehicle in front."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "What can we infer about the driver's attentiveness from these actions?",
-            "a": "The actions suggest that the driver is quite attentive to the traffic situation. They initially slowed to stop due to the red light and also reacted by inching forward when the vehicle in front moved forward, indicating that they are keeping an eye on the behavior of the vehicle ahead, as well as the traffic signals."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "What can be inferred about the traffic situation and movements of our car and the vehicle in front?",
-            "a": "From the observed situation, it appears our car initially slowed to a stop due to a red light. This red light also caused a halt to the vehicle in front of us. Although there was a brief moment when our vehicle moved forward, this was in response to the car in front slightly moving forward as well. However, the light remained red, which means we returned to a complete stop."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "If the traffic light had turned green after our car inched forward, what might our car have done?",
-            "a": "Only assuming from the given situations, if the traffic light had turned green after we inched forward, our car would have most likely proceeded forward along the road, following the vehicle in front."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "What happens if the car in front suddenly turns right at the red light?",
-            "a": "If the car in front of us decided to make a sudden right turn at the red light, it would clear the lane in front of us. However, without a green light signal, we would still have to remain stationary until the traffic light changes. "
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "Why did our car inch forward when the car in front did the same, even though the light was still red?",
-            "a": "It's common in traffic that vehicles inch forward despite the red light, usually to prepare for when the light changes to green. Our car might have moved slightly forward to maintain an appropriate distance with the vehicle in front."
-        }
-    },
-    {
-        "video_id": "06d54ae6-76749641.mov",
-        "QA": {
-            "q": "What can we infer about the driver's attentiveness from these actions?",
-            "a": "The actions suggest that the driver is quite attentive to the traffic situation. They initially slowed to stop due to the red light and also reacted by inching forward when the vehicle in front moved forward, indicating that they are keeping an eye on the behavior of the vehicle ahead, as well as the traffic signals."
-        }
-    },
-    {
-        "video_id": "01b4e4b9-fc7a5264.mov",
-        "QA": {
-            "q": "Why was the car moving slowly at the beginning?",
-            "a": "The car in front of our ego-car was moving slowly, which was why our car had to reduce its speed."
-        }
-    },
-    {
-        "video_id": "01b4e4b9-fc7a5264.mov",
-        "QA": {
-            "q": "Why did the car make a swerve movement?",
-            "a": "The ego-car made an attempt to pass the slow-moving car in front but swerved back because of other traffic blocking the overtake."
-        }
-    },
-    {
-        "video_id": "01b4e4b9-fc7a5264.mov",
-        "QA": {
-            "q": "When the car was trying to go around slow traffic, could it instantly get to the left lane?",
-            "a": "No. The car had to merge into the left lane slowly due to the slower traffic in its current lane."
-        }
-    },
-    {
-        "video_id": "01b4e4b9-fc7a5264.mov",
-        "QA": {
-            "q": "Did the car have to stop during its journey?",
-            "a": "Yes, the car had to stop and start several times because the traffic in front of it was stopping and starting."
-        }
+  {
+    "video_id": "083bc808-43718f9d.mov",
+    "QA": {
+      "q": "Offer an explanation of the driving scene presented.",
+      "a": "The driving scene begins with the ego-car moving forward straight down the road due to green traffic lights, meaning the road ahead is clear to proceed. Next, the car gently drifts into the left lane as the traffic continues to move ahead, indicating that the driver intends to follow the flow of the traffic. Shortly, the driver decides to shift back to the right lane, possibly because the other cars in the left lane are starting to queue up in order to make a turn. This could mean that the driver wants to avoid potential delays and keep going at a steady pace. Finally, the car continues to drive forward in the right lane, as it is clear with no obstructions or interruptions. This likely indicates that the driver is aware of the road conditions and positions of other vehicles on the road, prioritizing safety and smooth flow."
     }
+  },
+  {
+    "video_id": "083bc808-43718f9d.mov",
+    "QA": {
+      "q": "Present a compact description of the driver's actions and cause to explain these actions.",
+      "a": "Initially, the driver moves straight, following the direction of the traffic as the traffic light is green. Next, the driver changes lanes, drifting into the left lane, keeping up with the flowing traffic. Then, to avoid the congestion caused by the cars waiting to turn in the left lane, the driver efficiently shifts to the right lane. Finally, seeing that the lane is clear with no obstructions, the driver continues to drive forward, maintaining the safe and steady flow of the journey. Throughout the whole situation, the driver's actions seem to be dictated by the traffic conditions, traffic signals, and road circumstances, indicating a mindful and adaptable approach to driving."
+    }
+  },
+  {
+    "video_id": "02346f91-a62c5e01.mov",
+    "QA": {
+      "q": "Explain the driver's behavior in the scene, including the road objects and the traffic.",
+      "a": "First, the scene begins with the ego-car stationary at a standstill. The path in front of the ego-car is blocked due to traffic, which is also at a halt. In this phase, there are a handful of other vehicles around; a couple of cars right ahead, one of them being extremely close and another at some distance on the far right. There's also an additional car on the right side of our ego-car, albeit somewhat off to the side. \n\nNext, the traffic begins to gradually clear up, and the car\u2019s activity reflects that; the ego-car starts to inch slowly forward and veers slightly left. The vehicles ahead are moving forward at a sluggish pace which allows the ego-car to also proceed ahead. The car right in front of the ego-car doesn't seem to have moved much, but the car on the right which was at some distance, appears marginally closer on the horizontal axis. Meanwhile, the car on the ego-car\u2019s right disregards the rest and maintains its position. \n\nIn conclusion, the overall driver's behavior suggests their strict adherence to traffic rules and careful driving, manoeuvering slowly in response to the traffic movement and maintaining a safe distance from other vehicles."
+    }
+  },
+  {
+    "video_id": "02346f91-a62c5e01.mov",
+    "QA": {
+      "q": "Present a compact description of the driver's actions and cause to explain these actions.",
+      "a": "Firstly, the ego-car comes to a halt since there is a line of stationary traffic ahead. Several vehicles are present ahead of the car as well as one in the right lane. The relative positioning of these vehicles doesn't seem to change after a while, suggesting that traffic is indeed not moving. \n\nNext, as the traffic begins to shift over to the center lane, the ego-car slowly moves from the right lane to the center lane, tailing the same cars that were initially ahead. All the vehicles in front appear to maintain their positions with minor positional adjustments, signifying that the traffic merge is happening gradually. Therefore, the ego-car's maneuver to the center lane is attributed to the change in the flow of traffic. The driver is taking precautions and following the new traffic direction to keep the flow steady."
+    }
+  }
 ]
